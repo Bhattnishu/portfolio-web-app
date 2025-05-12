@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nishant Bhatt | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script defer src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="loader"><div class="spinner"></div></div>
+
+  <header>
+    <h1 class="logo">Nishant</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button id="theme-toggle">🌓</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Hi, I'm <span class="gradient-text">Nishant Bhatt</span></h2>
+    <h3><span id="typed"></span></h3>
+  </section>
+
+  <section id="about">
+  <h2>About Me</h2>
+  <div class="about-container">
+    <img src="profile photo.jpg" alt="Nishant Bhatt" class="profile-pic" />
+    <div class="bio">
+      <p>Hi! I'm Nishant Bhatt, a BCA student from Pithoragarh (Uttarakhand).</p>
+      <p>I’m passionate about full-stack development and love building modern web apps using the MERN stack.</p>
+    </div>
+  </div>
+</section>
+
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Node.js</li><li>React</li>
+      <li>SQL</li><li>MongoDB</li><li>Python</li><li>Java</li><li>C/C++</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-cards">
+      <a href="https://github.com/Bhattnishu/text-to-voice" target="_blank" class="card">Text to Voice</a>
+      <a href="https://github.com/Bhattnishu/weather-app" target="_blank" class="card">Weather App</a>
+      <a href="https://github.com/Bhattnishu/my-portfolio-project" target="_blank" class="card">My Portfolio Project</a>
+    <a href="https://github.com/Bhattnishu/NNS-food-web-app" target="_blank" class="card">NNS Food Web App</a>
+  </div>
+
+    
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>📧 nishantbhatt2017@gmail.com | 💻 <a href="https://github.com/Bhattnishu" target="_blank">GitHub</a></p>
+    <div id="back-to-top">⬆️</div>
+  </footer>
+</body>
+</html>
